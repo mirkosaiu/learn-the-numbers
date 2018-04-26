@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  LearnTheNumbersWithMixpanel
+
+  Created by Mirko Saiu on 20/12/15.
+  Copyright © 2015 Mirko Saiu. All rights reserved.
+*/
+ACTUAL_LANGUAGE="it";
+WEBSITE_URL="http://learnthenumbers.altervista.org/it/";
+
+LEARN_THE_NUMBERS="Impara i numeri";
+PLAY="Gioca";
+RESUME="Riprendi";
+RESTART="Rinizia";
+SHARE_WITH_FRIENDS="Condividi con i tuoi amici";
+GAIN_ASSISTANT="e ottieni il gran leone!";
+LEVEL_COMPLETE="Livello completato";
+EMAIL_OBJECT="Da un giocatore di Impara i numeri";
+EMAIL_BODY="Ciao Mirko, vorrei dirti che...";
+SEND_FEEDBACK_1="Inviaci";
+SEND_FEEDBACK_2="un feedback!";
+PARENTAL_CONTROL="Controllo genitori";
+ENTER_RESULT="Prego, inserisci il risultato...";
+
+

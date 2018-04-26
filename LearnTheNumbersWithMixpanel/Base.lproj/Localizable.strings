@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  LearnTheNumbersWithMixpanel
+
+  Created by Mirko Saiu on 20/12/15.
+  Copyright © 2015 Mirko Saiu. All rights reserved.
+*/
+ACTUAL_LANGUAGE="en";
+WEBSITE_URL="http://learnthenumbers.altervista.org/";
+
+LEARN_THE_NUMBERS="Learn the numbers";
+PLAY="Play";
+RESUME="Resume";
+RESTART="Restart";
+SHARE_WITH_FRIENDS="Share with your friends";
+GAIN_ASSISTANT="and gain the great lion!";
+LEVEL_COMPLETE="Level complete";
+EMAIL_OBJECT="From a player of Learn the numbers";
+EMAIL_BODY="Hi Mirko, I want to say to you that...";
+SEND_FEEDBACK_1="Send us";
+SEND_FEEDBACK_2="a feedback!";
+PARENTAL_CONTROL="Parental control";
+ENTER_RESULT="Please, enter the result...";
