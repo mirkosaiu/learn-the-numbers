@@ -18,6 +18,25 @@
 		DC3BFBDC28AFE290005DD30A /* learnthenumbers2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFBDB28AFE290005DD30A /* learnthenumbers2022Tests.swift */; };
 		DC3BFBE628AFE290005DD30A /* learnthenumbers2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFBE528AFE290005DD30A /* learnthenumbers2022UITests.swift */; };
 		DC3BFBE828AFE290005DD30A /* learnthenumbers2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFBE728AFE290005DD30A /* learnthenumbers2022UITestsLaunchTests.swift */; };
+		DC3BFBF528AFEB21005DD30A /* GameSceneSuper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFBF428AFEB21005DD30A /* GameSceneSuper.swift */; };
+		DC3BFBF728AFF249005DD30A /* piano-bells-happiness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC3BFBF628AFF248005DD30A /* piano-bells-happiness.mp3 */; };
+		DC3BFBFC28AFF30D005DD30A /* Level3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFBF828AFF30D005DD30A /* Level3.swift */; };
+		DC3BFBFD28AFF30D005DD30A /* Level4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFBF928AFF30D005DD30A /* Level4.swift */; };
+		DC3BFBFE28AFF30D005DD30A /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFBFA28AFF30D005DD30A /* Level2.swift */; };
+		DC3BFBFF28AFF30D005DD30A /* Level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFBFB28AFF30D005DD30A /* Level1.swift */; };
+		DC3BFC0628AFF32F005DD30A /* notifica1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC3BFC0028AFF32F005DD30A /* notifica1.mp3 */; };
+		DC3BFC0728AFF32F005DD30A /* level-completed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC3BFC0128AFF32F005DD30A /* level-completed.mp3 */; };
+		DC3BFC0828AFF32F005DD30A /* CheckTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFC0228AFF32F005DD30A /* CheckTrack.swift */; };
+		DC3BFC0928AFF32F005DD30A /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFC0328AFF32F005DD30A /* Number.swift */; };
+		DC3BFC0A28AFF32F005DD30A /* Vibur-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC3BFC0428AFF32F005DD30A /* Vibur-Regular.ttf */; };
+		DC3BFC0B28AFF32F005DD30A /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFC0528AFF32F005DD30A /* Fruit.swift */; };
+		DC3BFC1228B0EED3005DD30A /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DC3BFC0F28B0EED3005DD30A /* en.lproj */; };
+		DC3BFC1328B0EED3005DD30A /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DC3BFC1028B0EED3005DD30A /* es.lproj */; };
+		DC3BFC1428B0EED3005DD30A /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DC3BFC1128B0EED3005DD30A /* it.lproj */; };
+		DC3BFC1728B11257005DD30A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = DC3BFC1628B11257005DD30A /* FacebookCore */; };
+		DC3BFC1928B11257005DD30A /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = DC3BFC1828B11257005DD30A /* FacebookGamingServices */; };
+		DC3BFC1B28B11257005DD30A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = DC3BFC1A28B11257005DD30A /* FacebookLogin */; };
+		DC3BFC1D28B11257005DD30A /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = DC3BFC1C28B11257005DD30A /* FacebookShare */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +71,23 @@
 		DC3BFBE128AFE290005DD30A /* learnthenumbers2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnthenumbers2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3BFBE528AFE290005DD30A /* learnthenumbers2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnthenumbers2022UITests.swift; sourceTree = "<group>"; };
 		DC3BFBE728AFE290005DD30A /* learnthenumbers2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnthenumbers2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC3BFBF428AFEB21005DD30A /* GameSceneSuper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneSuper.swift; sourceTree = "<group>"; };
+		DC3BFBF628AFF248005DD30A /* piano-bells-happiness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "piano-bells-happiness.mp3"; sourceTree = "<group>"; };
+		DC3BFBF828AFF30D005DD30A /* Level3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level3.swift; sourceTree = "<group>"; };
+		DC3BFBF928AFF30D005DD30A /* Level4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level4.swift; sourceTree = "<group>"; };
+		DC3BFBFA28AFF30D005DD30A /* Level2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level2.swift; sourceTree = "<group>"; };
+		DC3BFBFB28AFF30D005DD30A /* Level1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level1.swift; sourceTree = "<group>"; };
+		DC3BFC0028AFF32F005DD30A /* notifica1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notifica1.mp3; sourceTree = "<group>"; };
+		DC3BFC0128AFF32F005DD30A /* level-completed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "level-completed.mp3"; sourceTree = "<group>"; };
+		DC3BFC0228AFF32F005DD30A /* CheckTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckTrack.swift; sourceTree = "<group>"; };
+		DC3BFC0328AFF32F005DD30A /* Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		DC3BFC0428AFF32F005DD30A /* Vibur-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vibur-Regular.ttf"; sourceTree = "<group>"; };
+		DC3BFC0528AFF32F005DD30A /* Fruit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		DC3BFC0E28B0EE38005DD30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DC3BFC0F28B0EED3005DD30A /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		DC3BFC1028B0EED3005DD30A /* es.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = es.lproj; sourceTree = "<group>"; };
+		DC3BFC1128B0EED3005DD30A /* it.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = it.lproj; sourceTree = "<group>"; };
+		DC3BFC1E28B1264A005DD30A /* learnthenumbers2022.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = learnthenumbers2022.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +95,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3BFC1728B11257005DD30A /* FacebookCore in Frameworks */,
+				DC3BFC1928B11257005DD30A /* FacebookGamingServices in Frameworks */,
+				DC3BFC1D28B11257005DD30A /* FacebookShare in Frameworks */,
+				DC3BFC1B28B11257005DD30A /* FacebookLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,14 +142,31 @@
 		DC3BFBC028AFE28D005DD30A /* learnthenumbers2022 */ = {
 			isa = PBXGroup;
 			children = (
-				DC3BFBC128AFE28D005DD30A /* AppDelegate.swift */,
+				DC3BFC1E28B1264A005DD30A /* learnthenumbers2022.entitlements */,
+				DC3BFC0E28B0EE38005DD30A /* Info.plist */,
 				DC3BFBC328AFE28D005DD30A /* GameScene.sks */,
 				DC3BFBC528AFE28D005DD30A /* Actions.sks */,
+				DC3BFC0F28B0EED3005DD30A /* en.lproj */,
+				DC3BFC1028B0EED3005DD30A /* es.lproj */,
+				DC3BFC1128B0EED3005DD30A /* it.lproj */,
+				DC3BFBFB28AFF30D005DD30A /* Level1.swift */,
+				DC3BFBFA28AFF30D005DD30A /* Level2.swift */,
+				DC3BFBF828AFF30D005DD30A /* Level3.swift */,
+				DC3BFBF928AFF30D005DD30A /* Level4.swift */,
+				DC3BFC0228AFF32F005DD30A /* CheckTrack.swift */,
+				DC3BFC0528AFF32F005DD30A /* Fruit.swift */,
+				DC3BFC0328AFF32F005DD30A /* Number.swift */,
 				DC3BFBC728AFE28D005DD30A /* GameScene.swift */,
+				DC3BFBF428AFEB21005DD30A /* GameSceneSuper.swift */,
 				DC3BFBC928AFE28E005DD30A /* GameViewController.swift */,
+				DC3BFBC128AFE28D005DD30A /* AppDelegate.swift */,
+				DC3BFC0128AFF32F005DD30A /* level-completed.mp3 */,
+				DC3BFC0028AFF32F005DD30A /* notifica1.mp3 */,
+				DC3BFBF628AFF248005DD30A /* piano-bells-happiness.mp3 */,
+				DC3BFC0428AFF32F005DD30A /* Vibur-Regular.ttf */,
 				DC3BFBCB28AFE28E005DD30A /* Main.storyboard */,
-				DC3BFBCE28AFE28F005DD30A /* Assets.xcassets */,
 				DC3BFBD028AFE28F005DD30A /* LaunchScreen.storyboard */,
+				DC3BFBCE28AFE28F005DD30A /* Assets.xcassets */,
 			);
 			path = learnthenumbers2022;
 			sourceTree = "<group>";
@@ -147,6 +204,12 @@
 			dependencies = (
 			);
 			name = learnthenumbers2022;
+			packageProductDependencies = (
+				DC3BFC1628B11257005DD30A /* FacebookCore */,
+				DC3BFC1828B11257005DD30A /* FacebookGamingServices */,
+				DC3BFC1A28B11257005DD30A /* FacebookLogin */,
+				DC3BFC1C28B11257005DD30A /* FacebookShare */,
+			);
 			productName = learnthenumbers2022;
 			productReference = DC3BFBBE28AFE28D005DD30A /* learnthenumbers2022.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +282,9 @@
 				Base,
 			);
 			mainGroup = DC3BFBB528AFE28D005DD30A;
+			packageReferences = (
+				DC3BFC1528B11257005DD30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = DC3BFBBF28AFE28D005DD30A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,10 +301,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3BFC1328B0EED3005DD30A /* es.lproj in Resources */,
 				DC3BFBCD28AFE28E005DD30A /* Main.storyboard in Resources */,
+				DC3BFC0628AFF32F005DD30A /* notifica1.mp3 in Resources */,
+				DC3BFBF728AFF249005DD30A /* piano-bells-happiness.mp3 in Resources */,
+				DC3BFC0728AFF32F005DD30A /* level-completed.mp3 in Resources */,
 				DC3BFBC428AFE28D005DD30A /* GameScene.sks in Resources */,
+				DC3BFC0A28AFF32F005DD30A /* Vibur-Regular.ttf in Resources */,
 				DC3BFBCF28AFE28F005DD30A /* Assets.xcassets in Resources */,
 				DC3BFBD228AFE28F005DD30A /* LaunchScreen.storyboard in Resources */,
+				DC3BFC1228B0EED3005DD30A /* en.lproj in Resources */,
+				DC3BFC1428B0EED3005DD30A /* it.lproj in Resources */,
 				DC3BFBC628AFE28D005DD30A /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +337,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3BFC0928AFF32F005DD30A /* Number.swift in Sources */,
+				DC3BFBFF28AFF30D005DD30A /* Level1.swift in Sources */,
+				DC3BFBFC28AFF30D005DD30A /* Level3.swift in Sources */,
 				DC3BFBC828AFE28D005DD30A /* GameScene.swift in Sources */,
 				DC3BFBCA28AFE28E005DD30A /* GameViewController.swift in Sources */,
+				DC3BFC0B28AFF32F005DD30A /* Fruit.swift in Sources */,
+				DC3BFBFD28AFF30D005DD30A /* Level4.swift in Sources */,
+				DC3BFBF528AFEB21005DD30A /* GameSceneSuper.swift in Sources */,
+				DC3BFBFE28AFF30D005DD30A /* Level2.swift in Sources */,
+				DC3BFC0828AFF32F005DD30A /* CheckTrack.swift in Sources */,
 				DC3BFBC228AFE28D005DD30A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -441,15 +522,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = learnthenumbers2022/learnthenumbers2022.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3UVM2TXDNU;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = learnthenumbers2022/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learn Numbers";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,7 +545,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -469,15 +554,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = learnthenumbers2022/learnthenumbers2022.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3UVM2TXDNU;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = learnthenumbers2022/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learn Numbers";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,7 +577,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -608,6 +697,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC3BFC1528B11257005DD30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC3BFC1628B11257005DD30A /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3BFC1528B11257005DD30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		DC3BFC1828B11257005DD30A /* FacebookGamingServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3BFC1528B11257005DD30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookGamingServices;
+		};
+		DC3BFC1A28B11257005DD30A /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3BFC1528B11257005DD30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		DC3BFC1C28B11257005DD30A /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3BFC1528B11257005DD30A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC3BFBB628AFE28D005DD30A /* Project object */;
 }

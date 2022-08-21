@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  LearnTheNumbersWithMixpanel
+
+  Created by Mirko Saiu on 20/12/15.
+  Copyright © 2015 Mirko Saiu. All rights reserved.
+*/
+ACTUAL_LANGUAGE="es";
+WEBSITE_URL="https://www.facebook.com/learnthenumbers";
+
+LEARN_THE_NUMBERS="Aprende los numeros";
+PLAY="Juega";
+RESUME="Continua";
+RESTART="Reinicia";
+SHARE_WITH_FRIENDS="Comparte con tus amigos";
+GAIN_ASSISTANT="y gana el gran león!";
+LEVEL_COMPLETE="Nivel Terminado";
+EMAIL_OBJECT="Por un jugador de Aprende los numeros";
+EMAIL_BODY="Hola Mirko, queria decirte que...";
+SEND_FEEDBACK_1="Envianos";
+SEND_FEEDBACK_2="un feedback!";
+PARENTAL_CONTROL="Control parental";
+ENTER_RESULT="Por favor, introduzca el resultado...";
