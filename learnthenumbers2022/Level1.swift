@@ -9,7 +9,7 @@
 import Foundation
 import AVFoundation
 import SpriteKit
-//import Mixpanel
+import Mixpanel
 
 class Level1: SKSceneSuper{
     
@@ -43,7 +43,7 @@ class Level1: SKSceneSuper{
         super.didMove(to: view)
         
                 
-//        mixpanel.track("Level start",  properties: ["Level": String(level), "Complexity": String(complexity)])
+        mixpanel.track(event: "Level start",  properties: ["Level": String(level), "Complexity": String(complexity)])
         
         
         setBaseEnvironment()

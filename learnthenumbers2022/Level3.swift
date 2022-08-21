@@ -34,7 +34,7 @@ class Level3: SKSceneSuper {
     override func didMove(to view: SKView) {
         super.didMove(to: view)
         
-//        mixpanel.track("Level start",  properties: ["Level": String(level), "Complexity": String(complexity)])
+        mixpanel.track(event: "Level start",  properties: ["Level": String(level), "Complexity": String(complexity)])
 
         
         scoresToCompleteThisLevel = complexity*3

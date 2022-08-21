@@ -10,9 +10,11 @@ import Foundation
 import AVFoundation
 import SpriteKit
 
+import Mixpanel
+
 
 class SKSceneSuper: SKScene {
-    var mixpanel: Mixpanel = Mixpanel.sharedInstanceWithToken(mixpanleToken)
+    let mixpanel = Mixpanel.initialize(token: mixpanelToken, trackAutomaticEvents: false)
 
     
     var actualLanguage = NSLocalizedString("ACTUAL_LANGUAGE", comment: "")
@@ -288,7 +290,7 @@ class SKSceneSuper: SKScene {
             userDefaults.set(1, forKey: defaultsKeys.complexity)
             userDefaults.set(true, forKey: defaultsKeys.isStarted)
             userDefaults.synchronize()
-//            mixpanel.track("Game finished")
+            mixpanel.track(event: "Game finished")
         }
         
         var level2show: SKScene = SKScene()

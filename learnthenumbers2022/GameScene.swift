@@ -170,7 +170,7 @@ class GameScene: SKSceneSuper, SharingDelegate {
     
     
     @objc func play(_ sender: UIButton!) {
-//        mixpanel.track("Play button clicked")
+        mixpanel.track(event: "Play button clicked")
         let defaults = UserDefaults.standard
         defaults.set(true, forKey: defaultsKeys.isStarted)
         
@@ -192,7 +192,7 @@ class GameScene: SKSceneSuper, SharingDelegate {
     // RESUME
     @objc func resume(_ sender: UIButton!) {
         
-//        mixpanel.track("Resume button clicked")
+        mixpanel.track(event: "Resume button clicked")
         
         
         removeObjectsFromSubview()
@@ -202,7 +202,7 @@ class GameScene: SKSceneSuper, SharingDelegate {
     
     
     @objc func restart(_ sender: UIButton!) {
-//        mixpanel.track("Restart button clicked")
+        mixpanel.track(event: "Restart button clicked")
         
         userDefaults.set(1, forKey: defaultsKeys.level)
         userDefaults.set(1, forKey: defaultsKeys.complexity)
@@ -223,11 +223,11 @@ class GameScene: SKSceneSuper, SharingDelegate {
 
         gateParental(
             ifSuccess: { () -> Void in
-//                self.mixpanel.track("Send feedback button clicked")
+                self.mixpanel.track(event: "Send feedback button clicked")
                 controller.sendEmailButtonTapped()
             },
             ifFail: { () -> Void in
-//                self.mixpanel.track("Fail on the parental control (send email)")
+                self.mixpanel.track(event: "Fail on the parental control (send email)")
             }
         )
     }
@@ -239,11 +239,11 @@ class GameScene: SKSceneSuper, SharingDelegate {
 
         gateParental(
             ifSuccess: { () -> Void in
-//                self.mixpanel.track("Share on facebook button clicked")
+                self.mixpanel.track(event: "Share on facebook button clicked")
                 self.showShareDialog()
             },
             ifFail: { () -> Void in
-//                self.mixpanel.track("Fail on the parental control (share on facebook)")
+                self.mixpanel.track(event: "Fail on the parental control (share on facebook)")
             }
         )
     }
@@ -324,7 +324,7 @@ class GameScene: SKSceneSuper, SharingDelegate {
     func sharer(_ sharer: Sharing, didCompleteWithResults results: [String : Any]) {
         print("condiviso")
         userDefaults.set(true, forKey: defaultsKeys.isSharedOnFacebook)
-//        mixpanel.track("Shared on Facebook")
+        mixpanel.track(event: "Shared on Facebook")
 //        if let scene = GameScene(fileNamed:"GameScene") {
 //            // Configure the view.
 //            let skView = self.view as! SKView
@@ -340,7 +340,7 @@ class GameScene: SKSceneSuper, SharingDelegate {
     func sharer(_ sharer: Sharing, didFailWithError error: Error) {
         print("sharer NSError")
         print(error.localizedDescription)
-//        mixpanel.track("Share error")
+        mixpanel.track(event: "Share error")
     }
     
     func sharerDidCancel(_ sharer: Sharing) {
@@ -348,7 +348,7 @@ class GameScene: SKSceneSuper, SharingDelegate {
         print("")
         print("")
         print("sharerDidCancel")
-//        mixpanel.track("Share cancelled")
+        mixpanel.track(event: "Share cancelled")
         print("")
         print("")
         print("")

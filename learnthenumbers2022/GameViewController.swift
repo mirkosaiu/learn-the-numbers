@@ -9,9 +9,6 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-
-
-
 import MessageUI
 
 //WHEN ADD AN ELEMENT, INITIALIZE IT IN APPDELEGATE
@@ -23,6 +20,7 @@ struct defaultsKeys {
     static let complexity = "complexity"
 }
 let userDefaults = UserDefaults.standard
+let mixpanelToken = "cb96522d13466a930b354aae2038b8dd"
 
 class GameViewController: UIViewController, MFMailComposeViewControllerDelegate {
 
